@@ -1,0 +1,36 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="150" viewBox="0 0 620 150" fill="none">
+  <defs>
+    <linearGradient id="meetGradient" x1="20" y1="20" x2="145" y2="125" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C04BFF"/>
+      <stop offset="1" stop-color="#00C6F7"/>
+    </linearGradient>
+    <linearGradient id="textGradient" x1="440" y1="40" x2="580" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B44AFF"/>
+      <stop offset="1" stop-color="#00C9F5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Meeting camera icon -->
+  <g transform="translate(8 15)">
+    <path d="M24 10H112C126 10 137 21 137 35V91C137 105 126 116 112 116H57L30 136V116H24C10 116 0 105 0 91V35C0 21 10 10 24 10Z" fill="url(#meetGradient)"/>
+    <path d="M137 42L180 17C186 13 193 17 193 24V102C193 109 186 113 180 109L137 83V42Z" fill="url(#meetGradient)"/>
+
+    <!-- People -->
+    <circle cx="66" cy="47" r="13" fill="white"/>
+    <circle cx="36" cy="58" r="10" fill="white"/>
+    <circle cx="96" cy="58" r="10" fill="white"/>
+    <path d="M42 92C42 76 52 67 66 67C80 67 90 76 90 92H42Z" fill="white"/>
+    <path d="M21 92C21 81 27 73 38 72C43 72 47 74 50 77C45 81 43 86 42 92H21Z" fill="white"/>
+    <path d="M91 77C95 74 99 72 104 72C115 73 121 81 121 92H90C90 86 88 81 84 77H91Z" fill="white"/>
+
+    <!-- AI sparkles -->
+    <path d="M153 0L158 12L170 17L158 22L153 34L148 22L136 17L148 12L153 0Z" fill="#B968FF"/>
+    <path d="M177 12L180 19L187 22L180 25L177 32L174 25L167 22L174 19L177 12Z" fill="#B968FF"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="220" y="105" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700" letter-spacing="-4">
+    <tspan fill="#0d0101">Meet</tspan><tspan fill="url(#textGradient)">AI</tspan>
+  </text>
+</svg>
