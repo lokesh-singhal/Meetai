@@ -4,6 +4,7 @@ export interface IParticipant extends Document {
     meetingId: mongoose.Types.ObjectId,
     userId?: mongoose.Types.ObjectId,
     role: "host" | "co-host" | "participant",
+    displayName: string
     livekitIdentity: string,
     joinedAt: Date,
     leftAt?: Date,
@@ -29,6 +30,10 @@ const participantSchema = new Schema({
         type: String,
         enum: ["host", "co-host", "participant"],
         default: "participant"
+    },
+
+    displayName: {
+        type: String,
     },
 
     livekitIdentity: {
